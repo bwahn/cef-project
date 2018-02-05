@@ -1,10 +1,5 @@
 The [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef/) (CEF) is a simple framework for embedding Chromium-based browsers in other applications. This repository hosts a sample project called "cef-project" that can be used as the starting point for third-party applications built using CEF.
 
-# Quick Links
-
-* Project Page - https://bitbucket.org/chromiumembedded/cef-project
-* Tutorial - https://bitbucket.org/chromiumembedded/cef/wiki/Tutorial
-* Support Forum - http://www.magpcss.org/ceforum/
 
 # Setup & Build ( macOS )
 
@@ -144,3 +139,10 @@ Here are some activities you might want to try next to gain a better understandi
 # Support and Contributions
 
 If you have any questions about CEF or cef-project please ask on the [CEF Forum](http://www.magpcss.org/ceforum/). If you would like to make contributions please see the "Helping Out" section of the [CEF Main Page](https://bitbucket.org/chromiumembedded/cef/).
+
+# Quick Links
+
+* Project Page - https://bitbucket.org/chromiumembedded/cef-project
+* Tutorial - https://bitbucket.org/chromiumembedded/cef/wiki/Tutorial
+* Support Forum - http://www.magpcss.org/ceforum/
+
