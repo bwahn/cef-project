@@ -6,9 +6,7 @@ The [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef/) (
 * Tutorial - https://bitbucket.org/chromiumembedded/cef/wiki/Tutorial
 * Support Forum - http://www.magpcss.org/ceforum/
 
-# Setup
-
-## macOS
+# Setup & Build ( macOS )
 
 ```
 $ cd ~/_cef/
@@ -33,7 +31,23 @@ ProductName:	Mac OS X
 ProductVersion:	10.13.3
 BuildVersion:	17D47
 
+$ git clone https://github.com/bwahn/cef-project.git cef-project-me
+
+$ cd cef-project-me
+
+$ mkdir build
+$ cd build
+
+$ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
+...
+...
+...
+
 ```
+
+
+
+
 
 First install some necessary tools and download the cef-project source code.
 
