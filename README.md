@@ -8,6 +8,33 @@ The [Chromium Embedded Framework](https://bitbucket.org/chromiumembedded/cef/) (
 
 # Setup
 
+## macOS
+
+```
+$ cd ~/_cef/
+$ git clone https://github.com/bwahn/cef-project.git cef-project-me
+
+$ brew install cmake
+$ cmake -version
+cmake version 3.10.2
+
+$ pwd
+~/_cef/
+
+$ virtualenv -p python env
+$ source env/bin/activate
+(env) $ python
+Python 2.7.14
+
+$ xcode-select --install
+
+$ sw_vers
+ProductName:	Mac OS X
+ProductVersion:	10.13.3
+BuildVersion:	17D47
+
+```
+
 First install some necessary tools and download the cef-project source code.
 
 1\. Install [CMake](https://cmake.org/), a cross-platform open-source build system. Version 2.8.12.1 or newer is required.
